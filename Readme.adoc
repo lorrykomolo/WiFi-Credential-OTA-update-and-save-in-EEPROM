@@ -1,0 +1,32 @@
+:Author: lorrykomolo
+:Email:
+:Date: 20/08/2022
+:Revision: version#
+:License: Public Domain
+
+= Project:All about ESP32 IoT
+
+Describe your project
+
+== Step 1: Interrupt
+1. connect push button with GPIO 15 to make an external Interrupt.
+2. connect a Resistor to make it pull down
+
+== Step 2: Brown out
+code has an implementation to disable brown out detection 
+
+
+== Step 3: Load the code
+1. ESP32 will Connect to Access Point:
+Once code is uploaded , you will observe that Access point with the name you have put in the code will be opened.
+2. Upload the code contained in this sketch on to your board
+3. connect to the AP using any device
+
+=== Step 4:IP address
+1. Type ip address on your web browser and it will display all scanned networks.
+2. type your SSID and password and submit. 
+
+3. it will save the password to EEPROM.
+
+4. push button is used to make esp32 enter to AP mode for wifi credential change.
+
